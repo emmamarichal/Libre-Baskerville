@@ -1,9 +1,6 @@
 {
 .appVersion = "3424";
 .formatVersion = 3;
-DisplayStrings = (
-"/macroncomb.case"
-);
 axes = (
 {
 name = Weight;
@@ -95,27 +92,33 @@ feature case;
 tag = aalt;
 },
 {
-code = "	sub f f i by f_f_i;
-	sub f f l by f_f_l;
-	sub f f b by f_f_b;
-	sub f f h by f_f_h;
-	sub f f j by f_f_j;
-	sub f f k by f_f_k;
-	sub f f t by f_f_t;
-	sub f f by f_f ;
-	sub f i by fi ;
-	sub f l by fl ;
-	sub f b by f_b;
-	sub f h by f_h;
-	sub f j by f_j;
-	sub f k by f_k; 
-	sub f t by f_t;";
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f l by f_f_l;
+sub f f by f_f;
+sub f i by fi;
+sub f l by fl;
+";
 tag = liga;
 },
 {
-code = "	sub c t by c_t; 
-	sub s p by s_p;
-	sub s t by s_t;";
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f b by f_f_b;
+sub f f h by f_f_h;
+sub f f j by f_f_j;
+sub f f k by f_f_k;
+sub f f t by f_f_t;
+sub c t by c_t;
+sub f b by f_b;
+sub f h by f_h;
+sub f j by f_j;
+sub f k by f_k;
+sub f t by f_t;
+sub s p by s_p;
+sub s t by s_t;
+";
 tag = dlig;
 },
 {
@@ -161,8 +164,11 @@ sub nine by ninesuperior;
 tag = sups;
 },
 {
-code = "	sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-	sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;";
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+";
 tag = ordn;
 },
 {
@@ -72163,8 +72169,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), 
-Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello®rfuenzalida.com), with Reserved Font Name Libre Baskerville.";
+value = "Copyright 2012 The Libre Baskerville Project Authors (https://github.com/impallari/Libre-Baskerville)";
 }
 );
 },
@@ -72187,10 +72192,6 @@ value = "Pablo Impallari, Rodrigo Fuenzalida";
 );
 },
 {
-key = designerURL;
-value = www.impallari.com;
-},
-{
 key = licenses;
 values = (
 {
@@ -72201,7 +72202,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
@@ -72211,10 +72212,6 @@ language = dflt;
 value = "Pablo Impallari, Rodrigo Fuenzalida";
 }
 );
-},
-{
-key = manufacturerURL;
-value = www.impallari.com;
 },
 {
 key = trademarks;
