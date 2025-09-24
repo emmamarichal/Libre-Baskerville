@@ -79822,6 +79822,38 @@ unicode = 0;
 },
 {
 color = 4;
+glyphname = lineseparator;
+lastChange = "2025-09-24 13:07:58 +0000";
+layers = (
+{
+layerId = m001;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+color = 4;
+glyphname = paragraphseparator;
+lastChange = "2025-09-24 13:07:58 +0000";
+layers = (
+{
+layerId = m001;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 8233;
+},
+{
+color = 4;
 glyphname = hyphen;
 kernLeft = KERN_hyphen;
 kernRight = KERN_hyphen;
