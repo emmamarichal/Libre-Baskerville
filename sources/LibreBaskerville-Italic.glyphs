@@ -80040,59 +80040,6 @@ unicode = 45;
 },
 {
 color = 4;
-glyphname = softhyphen;
-kernLeft = KERN_hyphen;
-kernRight = KERN_hyphen;
-lastChange = "2025-06-09 21:21:57 +0000";
-layers = (
-{
-layerId = m001;
-shapes = (
-{
-closed = 1;
-nodes = (
-(390,331,l),
-(81,331,l),
-(81,248,l),
-(390,248,l)
-);
-}
-);
-width = 488;
-},
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(390,331,l),
-(81,331,l),
-(81,248,l),
-(390,248,l)
-);
-}
-);
-};
-layerId = m002;
-shapes = (
-{
-closed = 1;
-nodes = (
-(400,336,l),
-(71,336,l),
-(71,243,l),
-(400,243,l)
-);
-}
-);
-width = 488;
-}
-);
-unicode = 173;
-},
-{
-color = 4;
 glyphname = endash;
 kernLeft = KERN_hyphen;
 kernRight = KERN_hyphen;
