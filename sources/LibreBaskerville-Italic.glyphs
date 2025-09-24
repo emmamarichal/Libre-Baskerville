@@ -73015,7 +73015,7 @@ color = 4;
 glyphname = s_p;
 kernLeft = KERN_s_2ND;
 kernRight = KERN_p_1ST;
-lastChange = "2025-09-24 13:04:19 +0000";
+lastChange = "2025-09-24 13:24:46 +0000";
 layers = (
 {
 anchors = (
@@ -79787,38 +79787,6 @@ nodes = (
 width = 756;
 }
 );
-},
-{
-color = 4;
-glyphname = CR;
-lastChange = "2025-06-08 22:39:01 +0000";
-layers = (
-{
-layerId = m001;
-width = 313;
-},
-{
-layerId = m002;
-width = 293;
-}
-);
-unicode = 13;
-},
-{
-color = 4;
-glyphname = NULL;
-lastChange = "2025-06-08 22:39:01 +0000";
-layers = (
-{
-layerId = m001;
-width = 0;
-},
-{
-layerId = m002;
-width = 0;
-}
-);
-unicode = 0;
 },
 {
 color = 4;
