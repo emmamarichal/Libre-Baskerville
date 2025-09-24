@@ -1,5 +1,5 @@
 {
-.appVersion = "3424";
+.appVersion = "3428";
 .formatVersion = 3;
 axes = (
 {
@@ -12522,7 +12522,7 @@ color = 4;
 glyphname = L;
 kernLeft = KERN_I_2ND;
 kernRight = KERN_L_1ST;
-lastChange = "2025-09-24 13:23:10 +0000";
+lastChange = "2025-09-24 14:00:18 +0000";
 layers = (
 {
 anchors = (
@@ -57354,7 +57354,7 @@ unicode = 92;
 {
 color = 4;
 glyphname = periodcentered.loclCAT;
-lastChange = "2024-09-03 19:20:55 +0000";
+lastChange = "2025-09-24 13:59:41 +0000";
 layers = (
 {
 layerId = m001;
@@ -57362,22 +57362,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(77,238,o),
-(106,209,o),
-(142,209,cs),
-(179,209,o),
-(208,238,o),
-(208,274,cs),
-(208,311,o),
-(179,340,o),
-(142,340,cs),
-(106,340,o),
-(77,311,o),
-(77,274,cs)
+(50,308,o),
+(79,279,o),
+(115,279,cs),
+(152,279,o),
+(181,308,o),
+(181,344,cs),
+(181,381,o),
+(152,410,o),
+(115,410,cs),
+(79,410,o),
+(50,381,o),
+(50,344,cs)
 );
 }
 );
-width = 285;
+width = 231;
 },
 {
 layerId = "A3BC9600-A3C1-44C8-8084-C4BCD6198E54";
@@ -57385,34 +57385,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(65,233,o),
-(98,200,o),
-(140,200,cs),
-(184,200,o),
-(217,233,o),
-(217,274,cs),
-(217,317,o),
-(184,351,o),
-(140,351,cs),
-(98,351,o),
-(65,317,o),
-(65,274,cs)
+(40,303,o),
+(73,270,o),
+(115,270,cs),
+(159,270,o),
+(192,303,o),
+(192,344,cs),
+(192,387,o),
+(159,421,o),
+(115,421,cs),
+(73,421,o),
+(40,387,o),
+(40,344,cs)
 );
 }
 );
-width = 281;
+width = 232;
 }
 );
 },
 {
 color = 4;
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2024-09-03 19:20:55 +0000";
+lastChange = "2025-09-24 14:00:27 +0000";
 layers = (
 {
 layerId = m001;
 shapes = (
 {
+pos = (0,162);
 ref = periodcentered;
 }
 );
@@ -57422,6 +57423,7 @@ width = 285;
 layerId = "A3BC9600-A3C1-44C8-8084-C4BCD6198E54";
 shapes = (
 {
+pos = (0,169);
 ref = periodcentered;
 }
 );
@@ -69580,6 +69582,7 @@ ordmasculine = -98;
 p = -6;
 parenright = -10;
 periodcentered = -108;
+periodcentered.loclCAT.case = -290;
 servicemark = -99;
 space = -30;
 trademark = -96;
@@ -71688,6 +71691,7 @@ ordmasculine = -100;
 p = -6;
 parenright = -10;
 periodcentered = -60;
+periodcentered.loclCAT.case = -280;
 servicemark = -98;
 space = -29;
 trademark = -97;

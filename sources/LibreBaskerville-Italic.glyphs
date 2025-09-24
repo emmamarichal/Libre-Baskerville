@@ -1,5 +1,5 @@
 {
-.appVersion = "3424";
+.appVersion = "3428";
 .formatVersion = 3;
 axes = (
 {
@@ -16768,7 +16768,7 @@ color = 4;
 glyphname = L;
 kernLeft = KERN_I_2ND;
 kernRight = KERN_L_1ST;
-lastChange = "2025-09-24 12:53:52 +0000";
+lastChange = "2025-09-24 14:01:06 +0000";
 layers = (
 {
 anchors = (
@@ -22891,7 +22891,7 @@ unicode = 7772;
 {
 color = 4;
 glyphname = Rinvertedbreve;
-lastChange = "2025-06-16 16:45:57 +0000";
+lastChange = "2025-09-24 14:02:04 +0000";
 layers = (
 {
 layerId = m001;
@@ -30462,7 +30462,7 @@ color = 4;
 glyphname = Zacute;
 kernLeft = KERN_Z_2ND;
 kernRight = KERN_Z_1ST;
-lastChange = "2025-06-16 14:56:55 +0000";
+lastChange = "2025-09-24 14:02:23 +0000";
 layers = (
 {
 layerId = m001;
@@ -83829,7 +83829,7 @@ unicode = 92;
 {
 color = 4;
 glyphname = periodcentered.loclCAT;
-lastChange = "2025-09-19 13:49:39 +0000";
+lastChange = "2025-09-24 14:00:54 +0000";
 layers = (
 {
 layerId = m001;
@@ -83837,18 +83837,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(173,209,o),
-(202,238,o),
-(202,274,cs),
-(202,311,o),
-(173,340,o),
-(136,340,cs),
-(100,340,o),
-(71,311,o),
-(71,274,cs),
-(71,238,o),
-(100,209,o),
-(136,209,cs)
+(203,329,o),
+(232,358,o),
+(232,394,cs),
+(232,431,o),
+(203,460,o),
+(166,460,cs),
+(130,460,o),
+(101,431,o),
+(101,394,cs),
+(101,358,o),
+(130,329,o),
+(166,329,cs)
 );
 }
 );
@@ -83860,18 +83860,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(180,195,o),
-(217,229,o),
-(217,274,cs),
-(217,317,o),
-(183,355,o),
-(136,355,cs),
-(91,355,o),
-(57,319,o),
-(57,273,cs),
-(57,227,o),
-(94,195,o),
-(136,195,cs)
+(201,335,o),
+(238,369,o),
+(238,414,cs),
+(238,457,o),
+(204,495,o),
+(157,495,cs),
+(112,495,o),
+(78,459,o),
+(78,413,cs),
+(78,367,o),
+(115,335,o),
+(157,335,cs)
 );
 }
 );
@@ -103653,6 +103653,7 @@ ordmasculine = -86;
 p = -37;
 parenright = -13;
 periodcentered = -94;
+periodcentered.loclCAT.case = -265;
 question = -25;
 registered = -20;
 servicemark = -86;
@@ -106924,6 +106925,7 @@ ordmasculine = -86;
 p = -37;
 parenright = -13;
 periodcentered = -94;
+periodcentered.loclCAT.case = -270;
 question = -25;
 registered = -20;
 servicemark = -86;
