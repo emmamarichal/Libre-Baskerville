@@ -2,7 +2,8 @@
 .appVersion = "3424";
 .formatVersion = 3;
 DisplayStrings = (
-"/commaaccentcomb.case"
+"/commaaccentcomb.case",
+"œ"
 );
 axes = (
 {
@@ -52106,7 +52107,7 @@ color = 4;
 glyphname = oe;
 kernLeft = KERN_o_2ND;
 kernRight = KERN_e_1ST;
-lastChange = "2025-08-04 21:11:34 +0000";
+lastChange = "2025-09-24 12:50:00 +0000";
 layers = (
 {
 background = {
@@ -52250,15 +52251,15 @@ nodes = (
 {
 closed = 1;
 nodes = (
+(496,376,o),
+(580,493,o),
+(650,493,cs),
 (673,493,o),
 (685,479,o),
 (685,451,cs),
 (685,371,o),
 (590,289,o),
-(462,254,c),
-(496,376,o),
-(580,493,o),
-(650,493,cs)
+(462,254,c)
 );
 }
 );
