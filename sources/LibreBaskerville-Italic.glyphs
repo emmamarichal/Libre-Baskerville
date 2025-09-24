@@ -1,10 +1,6 @@
 {
 .appVersion = "3424";
 .formatVersion = 3;
-DisplayStrings = (
-"/commaaccentcomb.case",
-"œ"
-);
 axes = (
 {
 name = Weight;
@@ -16398,7 +16394,7 @@ color = 4;
 glyphname = L;
 kernLeft = KERN_I_2ND;
 kernRight = KERN_L_1ST;
-lastChange = "2025-05-29 19:24:18 +0000";
+lastChange = "2025-09-24 12:53:52 +0000";
 layers = (
 {
 anchors = (
@@ -16409,6 +16405,10 @@ pos = (314,0);
 {
 name = top;
 pos = (339,830);
+},
+{
+name = topright;
+pos = (642,530);
 }
 );
 layerId = m001;
@@ -16460,6 +16460,10 @@ pos = (348,0);
 {
 name = top;
 pos = (361,830);
+},
+{
+name = topright;
+pos = (642,530);
 }
 );
 background = {
@@ -16663,7 +16667,7 @@ color = 4;
 glyphname = Lcaron;
 kernLeft = KERN_I_2ND;
 kernRight = KERN_L_1ST;
-lastChange = "2025-06-16 15:06:08 +0000";
+lastChange = "2025-09-24 12:53:54 +0000";
 layers = (
 {
 layerId = m001;
@@ -16672,8 +16676,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (8,0);
-ref = caron.case;
+pos = (492,0);
+ref = caroncomb.alt;
 }
 );
 width = 702;
@@ -16685,8 +16689,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (31,0);
-ref = caron.case;
+pos = (491,0);
+ref = caroncomb.alt;
 }
 );
 width = 716;
