@@ -55,6 +55,10 @@ value = 0.016667;
 {
 name = blueShift;
 value = 10;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2012-11-29 14:57:17 +0000";
@@ -2331,7 +2335,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 970;
+value = 1182;
 },
 {
 name = winDescent;
@@ -2592,7 +2596,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 970;
+value = 1182;
 },
 {
 name = winDescent;
@@ -65084,7 +65088,7 @@ width = 224;
 {
 color = 4;
 glyphname = commaaccentcomb.case;
-lastChange = "2024-09-05 20:56:19 +0000";
+lastChange = "2025-09-19 14:39:21 +0000";
 layers = (
 {
 anchors = (
@@ -65159,6 +65163,7 @@ nodes = (
 width = 170;
 }
 );
+unicode = 63171;
 },
 {
 color = 4;
