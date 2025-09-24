@@ -37521,7 +37521,7 @@ color = 4;
 glyphname = oslash;
 kernLeft = KERN_o_2ND;
 kernRight = KERN_o_1ST;
-lastChange = "2024-09-03 00:39:37 +0000";
+lastChange = "2025-09-24 13:31:10 +0000";
 layers = (
 {
 anchors = (
@@ -37596,16 +37596,16 @@ nodes = (
 layerId = m001;
 shapes = (
 {
-ref = o;
-},
-{
 closed = 1;
 nodes = (
+(108,-61,l),
 (625,592,l),
 (556,592,l),
-(40,-61,l),
-(108,-61,l)
+(40,-61,l)
 );
+},
+{
+ref = o;
 }
 );
 width = 654;
@@ -37620,16 +37620,16 @@ pos = (329,651);
 layerId = "A3BC9600-A3C1-44C8-8084-C4BCD6198E54";
 shapes = (
 {
-ref = o;
-},
-{
 closed = 1;
 nodes = (
-(565,592,l),
-(23,-61,l),
 (103,-61,l),
-(646,592,l)
+(646,592,l),
+(565,592,l),
+(23,-61,l)
 );
+},
+{
+ref = o;
 }
 );
 width = 660;
@@ -54425,7 +54425,7 @@ unicode = 91;
 {
 color = 4;
 glyphname = bracketright;
-lastChange = "2024-09-02 19:17:38 +0000";
+lastChange = "2025-09-24 13:31:16 +0000";
 layers = (
 {
 layerId = m001;
@@ -54433,14 +54433,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(23,-150,l),
 (264,-150,l),
 (264,820,l),
 (23,820,l),
 (23,773,l),
 (174,773,l),
 (174,-103,l),
-(23,-103,l)
+(23,-103,l),
+(23,-150,l)
 );
 }
 );
@@ -54452,14 +54452,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(172,-98,l),
-(13,-98,l),
-(13,-150,l),
 (296,-150,l),
 (296,820,l),
 (13,820,l),
 (13,768,l),
-(172,768,l)
+(172,768,l),
+(172,-98,l),
+(13,-98,l),
+(13,-150,l)
 );
 }
 );
@@ -73794,7 +73794,7 @@ key = descriptions;
 values = (
 {
 language = dflt;
-value = "Libre Baskerville is webfont optimized for web body text (typically 16px). It's based on 1941 ATF Specimens, but it has a taller x height, wider counters and minor contrast that allow it to work on small sizes in any screen.";
+value = "Libre Baskerville is webfont optimized for web body text (typically 16px).";
 }
 );
 },
